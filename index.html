@@ -8,7 +8,7 @@
 
 <title>SYNERA | Cabinet de développement, synergies et partenariats</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <style>
 
@@ -38,19 +38,19 @@ justify-content:space-between;
 align-items:center;
 background:rgba(255,255,255,.96);
 backdrop-filter:blur(10px);
+border-bottom:1px solid rgba(11,35,65,.08);
 z-index:999;
-border-bottom:1px solid rgba(0,0,0,.05);
 }
 
 .logo img{
-height:78px;
+height:85px;
 }
 
 nav a{
 text-decoration:none;
 color:#0B2341;
 margin-left:35px;
-font-size:.95rem;
+font-size:.9rem;
 font-weight:600;
 letter-spacing:1px;
 }
@@ -60,134 +60,105 @@ letter-spacing:1px;
 height:100vh;
 
 background:
-linear-gradient(rgba(6,18,34,.55),rgba(6,18,34,.55)),
-url("https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2400");
+linear-gradient(rgba(8,27,51,.55),rgba(8,27,51,.55)),
+url("networking.jpg");
 
 background-size:cover;
 background-position:center;
 display:flex;
-align-items:center;
 justify-content:center;
+align-items:center;
 text-align:center;
 padding:0 30px;
 
 }
 
 .hero-content{
-max-width:1050px;
+max-width:1000px;
 color:white;
 }
 
 .hero-subtitle{
-
-letter-spacing:5px;
+letter-spacing:4px;
+font-size:.8rem;
 text-transform:uppercase;
-font-size:.85rem;
 margin-bottom:25px;
-opacity:.9;
-
 }
 
 .hero h1{
-
-font-family:'Cormorant Garamond',serif;
-font-size:5.5rem;
+font-family:'Playfair Display',serif;
+font-size:5rem;
 font-weight:600;
-line-height:1.05;
-margin-bottom:35px;
-
+line-height:1.1;
+margin-bottom:30px;
 }
 
 .hero p{
-
-max-width:900px;
+font-size:1.1rem;
+max-width:850px;
 margin:auto;
-font-size:1.15rem;
-font-weight:300;
-
 }
 
 .hero-buttons{
-
 margin-top:45px;
-
 }
 
 .btn{
-
 display:inline-block;
 padding:16px 34px;
-text-decoration:none;
 margin:10px;
+text-decoration:none;
 transition:.3s;
-
 }
 
 .btn-primary{
-
 background:white;
 color:#0B2341;
 font-weight:600;
-
 }
 
 .btn-secondary{
-
-border:1px solid rgba(255,255,255,.6);
+border:1px solid rgba(255,255,255,.7);
 color:white;
-
 }
 
 .btn:hover{
-
 transform:translateY(-3px);
-
 }
 
 section{
-
 padding:130px 10%;
-
 }
 
 .container{
-
-max-width:1250px;
+max-width:1300px;
 margin:auto;
-
 }
 
 .section-title{
-
-font-family:'Cormorant Garamond',serif;
-font-size:4rem;
-font-weight:600;
+font-family:'Playfair Display',serif;
+font-size:3.8rem;
 color:#0B2341;
-margin-bottom:40px;
-
+margin-bottom:35px;
 }
 
-.photo-premium{
+.two-columns{
+display:grid;
+grid-template-columns:1.1fr 1fr;
+gap:80px;
+align-items:center;
+}
 
+.image-block img{
 width:100%;
 height:700px;
 object-fit:cover;
 border-radius:10px;
-margin-bottom:70px;
-
 }
 
-.intro-text{
-
-max-width:1050px;
-
-}
-
-.intro-text p{
-
-margin-bottom:28px;
+.text-block p{
+margin-bottom:25px;
 font-size:1.05rem;
-
 }
 
 @media(max-width:900px){
@@ -197,19 +168,19 @@ display:none;
 }
 
 .hero h1{
-font-size:3rem;
-}
-
-.hero p{
-font-size:1rem;
-}
-
-.photo-premium{
-height:350px;
+font-size:2.8rem;
 }
 
 .section-title{
-font-size:2.6rem;
+font-size:2.5rem;
+}
+
+.two-columns{
+grid-template-columns:1fr;
+}
+
+.image-block img{
+height:350px;
 }
 
 section{
@@ -231,11 +202,9 @@ padding:90px 7%;
 </div>
 
 <nav>
-
 <a href="#cabinet">LE CABINET</a>
 <a href="#interventions">INTERVENTIONS</a>
 <a href="#contact">CONTACT</a>
-
 </nav>
 
 </header>
@@ -245,7 +214,7 @@ padding:90px 7%;
 <div class="hero-content">
 
 <div class="hero-subtitle">
-CABINET DE DÉVELOPPEMENT, SYNERGIES ET PARTENARIATS
+CABINET DE DÉVELOPPEMENT • SYNERGIES • PARTENARIATS
 </div>
 
 <h1>
@@ -255,10 +224,7 @@ C'est un point de départ.
 </h1>
 
 <p>
-Fondé à Paris, SYNERA accompagne les entreprises,
-marques, organisateurs, dirigeants et porteurs de projets
-dans la création de synergies, le développement de partenariats
-et la mise en œuvre d'initiatives à forte valeur ajoutée.
+Fondé à Paris, SYNERA accompagne les entreprises, marques, dirigeants et porteurs de projets dans la création de synergies, le développement de partenariats et la mise en œuvre d'initiatives à forte valeur ajoutée.
 </p>
 
 <div class="hero-buttons">
@@ -267,15 +233,11 @@ et la mise en œuvre d'initiatives à forte valeur ajoutée.
 Parler de mon projet
 </a>
 
-<a href="https://wa.me/33636397856"
-target="_blank"
-class="btn btn-secondary">
+<a href="https://wa.me/33636397856" target="_blank" class="btn btn-secondary">
 WhatsApp
 </a>
 
-<a href="https://www.instagram.com/cabinet_synera"
-target="_blank"
-class="btn btn-secondary">
+<a href="https://www.instagram.com/cabinet_synera" target="_blank" class="btn btn-secondary">
 Instagram
 </a>
 
@@ -289,16 +251,20 @@ Instagram
 
 <div class="container">
 
-<img
-class="photo-premium"
-src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2400">
+<div class="two-columns">
 
-<h2 class="section-title">
+<div class="image-block">
+
+<img src="cabinet.jpg" alt="Cabinet Synera">
+
+</div>
+
+<div class="cabinet-content">
+  <h2 class="section-title">
 Le Cabinet
 </h2>
 
-<div class="intro-text">
-  <p>
+<p>
 SYNERA est né d'une conviction simple : les projets les plus ambitieux nécessitent souvent la convergence de compétences, d'expertises et d'acteurs complémentaires.
 </p>
 
@@ -307,15 +273,11 @@ Le cabinet intervient comme partenaire de réflexion, de coordination et de stru
 </p>
 
 <p>
-Au fil de ses missions, SYNERA a développé des relations professionnelles durables avec des acteurs issus de secteurs variés : événementiel, hôtellerie, lieux de réception, restauration, transport, production, communication, animation, marques, organisateurs de salons, prestataires techniques et services spécialisés.
+Au fil des années, SYNERA a constitué un écosystème d'interlocuteurs et de partenaires issus d'univers complémentaires, permettant d'intervenir sur des projets variés avec une approche fondée sur la pertinence des expertises mobilisées et la qualité de leur exécution.
 </p>
 
 <p>
-Cette diversité permet au cabinet d'intervenir sur des projets aux formats et aux ambitions multiples.
-</p>
-
-<p>
-Qu'il s'agisse de l'organisation d'un événement, du développement d'un salon professionnel, de la recherche de partenaires, de la création d'expériences sur mesure, de l'identification de prestataires spécifiques ou de la mise en œuvre d'un concept particulier, le cabinet mobilise les ressources adaptées à chaque mission.
+Qu'il s'agisse de l'organisation d'un événement, du développement d'un salon professionnel, de la recherche de partenaires, de la création d'expériences sur mesure ou de la structuration d'une collaboration stratégique, le cabinet mobilise les ressources adaptées à chaque mission.
 </p>
 
 <p>
@@ -323,16 +285,14 @@ Certains projets nécessitent un lieu atypique. D'autres exigent l'intervention 
 </p>
 
 <p>
-Le rôle du cabinet consiste alors à identifier les solutions pertinentes, faciliter les échanges et assurer la cohérence de l'ensemble.
+Le rôle du cabinet consiste alors à identifier les solutions pertinentes, faciliter les échanges et assurer la cohérence globale du projet.
 </p>
 
 <p>
-Parce que les enjeux diffèrent d'un projet à l'autre, SYNERA privilégie une approche fondée sur la pertinence des interlocuteurs, la qualité de l'exécution et la cohérence globale des collaborations mises en place.
+Parce que chaque projet est unique, SYNERA privilégie une approche fondée sur l'écoute, la réactivité et la qualité des collaborations mises en place.
 </p>
 
-<p>
-Cette capacité à réunir des expertises complémentaires permet d'apporter des réponses concrètes à des besoins simples comme à des projets plus singuliers.
-</p>
+</div>
 
 </div>
 
@@ -340,7 +300,7 @@ Cette capacité à réunir des expertises complémentaires permet d'apporter des
 
 </section>
 
-<section id="interventions" style="background:#f8f8f8;">
+<section id="interventions" style="background:#F5F6F8;">
 
 <div class="container">
 
@@ -357,32 +317,32 @@ margin-top:50px;
 
 <div style="background:white;padding:40px;border-radius:10px;">
 <h3 style="color:#0B2341;margin-bottom:15px;">Partenariats stratégiques</h3>
-<p>Identification, négociation et développement de collaborations adaptées aux objectifs de chaque projet.</p>
+<p>Identification, développement et négociation de collaborations adaptées aux objectifs de chaque projet.</p>
 </div>
 
 <div style="background:white;padding:40px;border-radius:10px;">
 <h3 style="color:#0B2341;margin-bottom:15px;">Événementiel</h3>
-<p>Conception, coordination et accompagnement d'événements privés et professionnels.</p>
+<p>Accompagnement d'événements privés, institutionnels et professionnels.</p>
 </div>
 
 <div style="background:white;padding:40px;border-radius:10px;">
 <h3 style="color:#0B2341;margin-bottom:15px;">Salons professionnels</h3>
-<p>Développement de synergies entre organisateurs, exposants, partenaires et visiteurs.</p>
+<p>Création de synergies entre organisateurs, exposants et partenaires.</p>
 </div>
 
 <div style="background:white;padding:40px;border-radius:10px;">
 <h3 style="color:#0B2341;margin-bottom:15px;">Marques & visibilité</h3>
-<p>Création d'opportunités et de collaborations adaptées aux ambitions des marques.</p>
+<p>Développement d'opportunités et de collaborations à forte valeur ajoutée.</p>
 </div>
 
 <div style="background:white;padding:40px;border-radius:10px;">
 <h3 style="color:#0B2341;margin-bottom:15px;">Développement de projet</h3>
-<p>Accompagnement des projets en phase de lancement, de croissance ou de diversification.</p>
+<p>Accompagnement stratégique de projets en phase de lancement ou de croissance.</p>
 </div>
 
 <div style="background:white;padding:40px;border-radius:10px;">
 <h3 style="color:#0B2341;margin-bottom:15px;">Networking</h3>
-<p>Création d'opportunités favorisant les rencontres, les échanges et le développement d'affaires.</p>
+<p>Création d'environnements favorisant les rencontres, les échanges et les opportunités d'affaires.</p>
 </div>
 
 </div>
@@ -395,22 +355,20 @@ margin-top:50px;
 
 <div class="container">
 
-<img
-class="photo-premium"
-src="https://images.unsplash.com/photo-1505236858219-8359eb29e329?q=80&w=2400">
+<div class="two-columns">
+
+<div class="cabinet-content">
 
 <h2 class="section-title">
 Une mobilisation dédiée
 </h2>
-
-<div class="intro-text">
 
 <p>
 Chaque mission confiée à SYNERA fait l'objet d'une mobilisation adaptée à ses enjeux.
 </p>
 
 <p>
-Selon la nature du projet, le cabinet coordonne les différents intervenants nécessaires à sa réalisation et assure les démarches de recherche, de mise en relation, de prospection, de négociation et de suivi auprès des partenaires concernés.
+Selon la nature du projet, le cabinet coordonne les différents intervenants nécessaires à sa réalisation et assure les démarches de recherche, de prospection, de négociation, de mise en relation et de suivi auprès des partenaires concernés.
 </p>
 
 <p>
@@ -418,7 +376,11 @@ Cette organisation permet à ses clients de se concentrer pleinement sur leur ac
 </p>
 
 <p>
-Derrière chaque mission, une organisation est mise en place afin d'assurer la fluidité des échanges, le respect des objectifs définis et l'avancement concret du projet.
+Concrètement, une équipe est mobilisée autour de votre projet afin de piloter les démarches, coordonner les échanges et faire avancer les actions nécessaires à son développement.
+</p>
+
+<p>
+Vous bénéficiez ainsi d'un interlocuteur dédié sans avoir à gérer vous-même l'ensemble des intervenants mobilisés.
 </p>
 
 <p>
@@ -427,21 +389,34 @@ De l'identification des opportunités à leur concrétisation, SYNERA assure le 
 
 </div>
 
+<div class="image-block">
+
+<img src="reunion.jpg" alt="Salle de réunion">
+
 </div>
 
-</section><section>
+</div>
+
+</div>
+
+</section>
+<section>
 
 <div class="container">
 
-<img
-class="photo-premium"
-src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=2400">
+<div class="two-columns">
+
+<div class="image-block">
+
+<img src="paris.jpg" alt="Paris">
+
+</div>
+
+<div class="cabinet-content">
 
 <h2 class="section-title">
 Paris au cœur de nos activités
 </h2>
-
-<div class="intro-text">
 
 <p>
 Implanté dans le 17ᵉ arrondissement de Paris, SYNERA évolue au sein d'un environnement où se rencontrent entreprises, marques, organisateurs, investisseurs, prestataires et décideurs.
@@ -464,6 +439,8 @@ Au-delà des mises en relation, le cabinet accompagne la structuration et le dé
 
 </div>
 
+</div>
+
 </section>
 
 <section id="contact" style="background:#0B2341;color:white;">
@@ -474,10 +451,10 @@ Au-delà des mises en relation, le cabinet accompagne la structuration et le dé
 Parlons de votre projet
 </h2>
 
-<div style="max-width:800px;">
+<div style="max-width:850px;">
 
 <p style="margin-bottom:40px;">
-Chaque projet débute par un échange confidentiel permettant d'identifier vos objectifs, vos enjeux et les opportunités à développer.
+Chaque projet débute par un échange permettant de comprendre vos objectifs, vos enjeux et les opportunités à développer.
 </p>
 
 <form action="https://formsubmit.co/cabinetsyneraparis@gmail.com" method="POST">
@@ -487,43 +464,44 @@ type="text"
 name="Nom"
 placeholder="Nom et prénom"
 required
-style="width:100%;padding:18px;margin-bottom:15px;border:none;border-radius:4px;">
+style="width:100%;padding:18px;margin-bottom:15px;border:none;border-radius:6px;">
 
 <input
 type="text"
 name="Entreprise"
 placeholder="Société / Marque"
-style="width:100%;padding:18px;margin-bottom:15px;border:none;border-radius:4px;">
+style="width:100%;padding:18px;margin-bottom:15px;border:none;border-radius:6px;">
 
 <input
 type="email"
 name="Email"
 placeholder="Adresse e-mail"
 required
-style="width:100%;padding:18px;margin-bottom:15px;border:none;border-radius:4px;">
+style="width:100%;padding:18px;margin-bottom:15px;border:none;border-radius:6px;">
 
 <input
 type="tel"
 name="Téléphone"
 placeholder="Téléphone"
-style="width:100%;padding:18px;margin-bottom:15px;border:none;border-radius:4px;">
+style="width:100%;padding:18px;margin-bottom:15px;border:none;border-radius:6px;">
 
 <textarea
 name="Message"
 rows="8"
 placeholder="Décrivez votre projet"
 required
-style="width:100%;padding:18px;margin-bottom:20px;border:none;border-radius:4px;"></textarea>
+style="width:100%;padding:18px;margin-bottom:20px;border:none;border-radius:6px;"></textarea>
 
 <button
 type="submit"
 style="
 background:white;
 color:#0B2341;
-padding:18px 35px;
+padding:18px 40px;
 border:none;
 font-weight:600;
-cursor:pointer;">
+cursor:pointer;
+border-radius:6px;">
 Envoyer
 </button>
 
@@ -554,18 +532,22 @@ Instagram
 </section>
 
 <footer style="
-background:#071728;
+background:#081B33;
 color:white;
-padding:90px 10%;
+padding:100px 10%;
 text-align:center;
 ">
 
 <img
 src="logo.png"
 alt="SYNERA"
-style="height:100px;margin-bottom:30px;">
+style="height:110px;margin-bottom:30px;">
 
-<p style="letter-spacing:2px;text-transform:uppercase;font-size:.85rem;">
+<p style="
+letter-spacing:2px;
+text-transform:uppercase;
+font-size:.85rem;
+margin-bottom:30px;">
 Cabinet de développement, synergies et partenariats
 </p>
 
@@ -573,7 +555,7 @@ Cabinet de développement, synergies et partenariats
 width:80px;
 height:1px;
 background:rgba(255,255,255,.3);
-margin:30px auto;">
+margin:0 auto 30px auto;">
 </div>
 
 <p>
@@ -581,15 +563,18 @@ margin:30px auto;">
 75017 Paris
 </p>
 
-<p>
+<p style="margin-top:15px;">
 06 36 39 78 56
 </p>
 
-<p>
+<p style="margin-top:15px;">
 cabinetsyneraparis@gmail.com
 </p>
 
-<p style="margin-top:40px;font-size:.85rem;opacity:.7;">
+<p style="
+margin-top:50px;
+font-size:.85rem;
+opacity:.7;">
 © SYNERA — Tous droits réservés
 </p>
 
